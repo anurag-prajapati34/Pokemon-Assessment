@@ -1,6 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+
 import "./App.css";
 import { PokemonContext } from "./contexts/PokemonContext";
 import { Card } from "./components/Card/Card";
