@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import './card.css'
+import '.Card.css'
 
 export const Card = ({pokemonData}) => {
 
