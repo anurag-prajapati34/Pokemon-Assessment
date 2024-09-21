@@ -13,7 +13,10 @@ function App() {
 
   return (
     <div className="container">
+      {/*Search component for search */}
       <Search />
+
+      {/*displaying cards */}
       <div className="display-cards">
         {searchedPokemon ? (
           <Card pokemonData={searchedPokemon} />
@@ -27,6 +30,7 @@ function App() {
       </div>
 
       <div>
+        {/*foooter component */}
       <Footer/>
       </div>
     </div>
