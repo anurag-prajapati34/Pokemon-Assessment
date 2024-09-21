@@ -1,0 +1,35 @@
+.search-container{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: max(40vw,300px);
+    min-width: 200px;
+    max-width: 400px;
+    display: flex;
+    height: 40px;
+    border-radius: 10px ;
+    overflow: hidden;
+    border: 1px solid var(--card-bg-color);
+    font-size: 20px;
+
+}
+.search-container input{
+    flex: 1;
+    height:100%;
+    border: none;
+    outline: none;
+    padding: 2px 10px;
+    font-size: 18px;
+    
+}
+
+.search-container button{
+    height:100%;
+    border: none;
+    outline: none;
+    padding: 2px 10px;
+    font-size: 18px;
+    outline: none;
+    background-color: var(--card-bg-color);
+    color: wheat;
+    cursor: pointer;
+}
